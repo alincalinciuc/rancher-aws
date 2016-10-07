@@ -13,7 +13,7 @@
     },
     "ImageId": {
       "Type": "String",
-      "Default": "ami-997b1eea"
+      "Default": "ami-af7d0bb8"
     },
     "KeyName": {
       "Type": "AWS::EC2::KeyPair::KeyName"
@@ -28,7 +28,7 @@
     },
     "ELBConnectionDraining": {
       "Type": "String",
-      "Description": "Connection draining ensures that the load balancer completes serving all in-flight requests made to a registered instance when the instance is deregistered or becomes unhealthy",
+      "Description": "Connection draining ensures that the load balancer completes serving all in-flight requests made to a registered instance when the instance is de-registered or becomes unhealthy",
       "Default": 30
     },
     "AllocatedStorage": {
